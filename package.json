@@ -1,0 +1,59 @@
+{
+  "name": "highlight-lib",
+  "version": "1.0.0",
+  "description": "Uma biblioteca Angular para destacar (highlight) palavras ou frases em componentes como ngx-extended-pdf-viewer.",
+  "author": "João Oliveira",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seuusuario/highlight-lib.git"
+  },
+  "keywords": [
+    "angular",
+    "highlight",
+    "pdf",
+    "ngx-extended-pdf-viewer",
+    "library"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^17.0.0",
+    "@angular/core": "^17.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.6.0"
+  },
+  "devDependencies": {
+    "@angular/animations": "^17.0.0",
+    "@angular/cli": "^17.0.0",
+    "@angular/compiler": "^17.0.0",
+    "@angular/compiler-cli": "^17.0.0",
+    "@angular/core": "^17.0.0",
+    "@angular/forms": "^17.0.0",
+    "@angular/platform-browser": "^17.0.0",
+    "@angular/platform-browser-dynamic": "^17.0.0",
+    "@angular/router": "^17.0.0",
+    "rxjs": "^7.8.0",
+    "typescript": "~5.2.0",
+    "zone.js": "~0.14.0"
+  },
+  "main": "bundles/highlight-lib.umd.js",
+  "module": "fesm2015/highlight-lib.mjs",
+  "es2015": "fesm2015/highlight-lib.mjs",
+  "esm2020": "fesm2020/highlight-lib.mjs",
+  "fesm2020": "fesm2020/highlight-lib.mjs",
+  "typings": "highlight-lib.d.ts",
+  "sideEffects": false,
+  "ngPackage": {
+    "lib": {
+      "entryFile": "src/public-api.ts"
+    }
+  },
+  "scripts": {
+    "ng": "ng",
+    "build": "ng build highlight-lib",
+    "test": "ng test highlight-lib",
+    "lint": "ng lint highlight-lib",
+    "release": "npm publish --access public",
+    "pack": "npm pack"
+  }
+}
